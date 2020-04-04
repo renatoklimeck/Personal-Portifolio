@@ -1,0 +1,130 @@
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+    top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #BE3043;
+  color: #F0F0F0;
+  z-index: 1;
+
+}
+a {
+  color: #F0F0F0;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+      background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  font-family: 'montserrat', sans-serif;
+}
+
+h1 {
+  color: #F0F0F0;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+}
+#subtitle {
+    font-weight: 100;
+    font-style: italic;
+    color: #BE3043
+}
+]
+
+.nav-link {
+  color: #F0F0F0;
+}
+li {
+    list-style: none;  
+}
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+ padding: 20px;
+   font-size: 1.8em;
+
+}
+
+@media (max-width:30.625) {
+  projects-section {
+    padding: 6rem 1rem;
+  }
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+padding: 20px;
+    
+}
+  #projects-title {
+ text-align: center;
+    font-family: "montserrat", sans-serif;
+    font-size: 40px;
+    color: #F0F0F0;
+    text-decoration: underline;
+    
+  }
+
+.projects-section {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #45567D;
+ 
+
+
+}
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+  border: 1px solid;
+}
+  .project-title {
+color: #F0F0F0;
+    font-family: "montserrat", sans-serif;
+    font-size: 1.5rem;
+  }
+
+
+
+
+#contact {
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+  background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  color: #F0F0F0;
+  padding: 10px;
+  margin-bottom: -80px;
+}
+#contact h2 {
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+#contact p {
+  font-size: 20px;
+ font-weight: 100;
+    font-style: italic;
+  position: relative;
+  top: -10px;
+}
+.contact-links {
+  position: relative;
+  top: -10px;
+}
